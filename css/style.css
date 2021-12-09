@@ -27,14 +27,13 @@ body{
 }
 
 #navBar{
-    display: flex;   
-    background-color: aqua;  
+    display: flex;    
     width: 70%;
     height: 100%;
+    flex-direction: column;
 }
 
-#menuOptions{
-    background-color: beige;
+#menuOptions{  
     width: 100%;
     height: 50%;    
 }
