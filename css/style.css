@@ -63,3 +63,20 @@ body{
 #bag img{
     position: absolute;
 }
+
+#busca{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 50px;
+    margin: 10px 0px ;
+    background-color: grey;
+    flex-direction: column;
+}
+#busca input{
+    width: 50%;
+    
+}
+#busca b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
