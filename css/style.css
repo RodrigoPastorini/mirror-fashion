@@ -46,7 +46,7 @@ body{
     list-style: none;
 }
 #menuOptions ul li{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 30px;
 }
 
@@ -105,7 +105,7 @@ body{
 
 #departamento ul li{
     left: 0px; 
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     margin-bottom: 20px;  
 }
@@ -154,4 +154,48 @@ a{
 }
 a:hover{
  color: blue;
+}
+
+#sobre{
+    position: absolute;
+    height: 40%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    -webkit-box-shadow: 10px 5px 14px 5px #000000; 
+    box-shadow: 10px 5px 14px 5px #000000;
+    width: 100%;  
+}
+#sobre img{
+    position: absolute;
+    height: 40%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    -webkit-box-shadow: 10px 5px 14px 5px #000000; 
+    box-shadow: 10px 5px 14px 5px #000000;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 100%;  
+}
+
+
+#aMirrorFashion{
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+}
+
+#sobreVoltar ul{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 0%;
+    
+    list-style: none;
+}
+#sobreVoltar ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
 }
